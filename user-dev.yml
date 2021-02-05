@@ -17,6 +17,6 @@ eureka:
     register-with-eureka: true #作为客户端需要注册到eureka
     fetch-registry: true #作为客户需要从euraka获取注册信息
     service-url: #客户端注册地址
-      defaultZone: http://127.0.0.1:9999/eureka
+      defaultZone: http://127.0.0.1:8888/eureka
   instance:
     prefer-ip-address: true   #优先使用该服务的IP地址注册到Eureka,在实际的生产环境中建议打开
